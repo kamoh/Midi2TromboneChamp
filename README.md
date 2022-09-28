@@ -1,5 +1,5 @@
 # Midi2TromboneChamp
-Create charts for Trombone Champ from midis, to be used with TrombLoader
+Create charts for Trombone Champ from midis, to be used with [TrombLoader](https://github.com/NyxTheShield/TrombLoader)
 
 ## Usage
 Channel 1 is used for actual notes, while Channel 2 is used for multiple slide notes.
@@ -7,7 +7,7 @@ A sequence of Channel 2 notes must end with a Channel 1 note. Also, please quant
 
 It's strongly advised to make your own MIDI files. Trying to import ones directly from the internet will probably result in a crash or a bunch of bad notes in your chart.
 
-To add a custom chart, create a new folder in the CustomSongs directory created by the TrombLoader plugin using the following structure:
+To add a custom chart, create a new folder in the CustomSongs directory created by the [TrombLoader](https://github.com/NyxTheShield/TrombLoader) plugin using the following structure:
 
 ```
 [your-song-name] # this is your folder that contains your custom chart materials
